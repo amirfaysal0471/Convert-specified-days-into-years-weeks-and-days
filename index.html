@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="boot/bootstrap.min.css">
+
 </head>
 <body>
 
-    <header>
+    <header class="second-2
+    " >
     <section>
    <h1>Convert specified days into years, weeks and days</h1>
  
 </section>
 
-<section class="second-2" >
+<section>
   
  <h2>Enter Day</h2>
    <div class="submit" >
- <input id="day" placeholder="Enter Days" type="value">
- <input id="submit" class="btn btn-primary" type="submit" value="Submit">
-
+ <input class="reset" id="day" placeholder="Enter Days" type="value">
+<button class="reset" id="submit-1" >Submit</button>
+<button id="reset" >Reset</button>
+ 
 </div>
 
 
@@ -54,9 +56,9 @@
         <div id="final" class="result-1" >
        
     <ul>
-       <li>00</li>
-       <li>00</li>
-       <li>00</li>
+       <li class="reset" id="year-1" >00</li>
+       <li  class="reset" id="week" >00</li>
+       <li class="reset" id="d" >00</li>
    </ul>
     
        
@@ -66,7 +68,7 @@
 
 </section>
     
-</header>
+<script src="node.js"></script>
 
 </body>
 </html>
